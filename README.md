@@ -7,7 +7,7 @@
 
 **Detect six types of car damage** – dent, scratch, crack, glass shatter, tire flat, lamp broken – using a YOLOv8 instance segmentation model. This repository contains the full pipeline: data preparation, training, evaluation, and a Gradio web app.
 
-![Sample prediction](data visualization/damage_classes_collage.png)  
+![Sample prediction](data_visualization/damage_classes_collage.png)  
 
 ---
 
@@ -47,19 +47,19 @@ This project implements an end‑to‑end pipeline for car damage detection and 
 We use the **CarDD** (Car Damage Detection) dataset [1], which contains over 9,000 high‑resolution images with pixel‑level annotations for six damage categories. The dataset is split into train, validation, and test sets. Below are key statistics from our exploratory analysis.
 
 ### Class Distribution
-![Class distribution](data_visualization/Class distribution per Split.png)  
+![Class distribution](data_visualization/Class_distribution_per_Split.png)  
 *The dataset is imbalanced: “scratch” and “dent” are the most frequent; “tire flat” and “crack” are rarer.*
 
 ### Bounding Box Size Distribution
-![BBox size distribution](data_visualization/Bounding Box Size Analysis.png)  
+![BBox size distribution](data_visualization/Bounding_Box_Size_Analysis.png)  
 *Most damages are small to medium (width/height < 300 px), but there is a long tail of larger damages.*
 
 ### Aspect Ratio Distribution
-![Aspect ratio distribution](data_visualization/Bounding Box Aspect Ratio.png)  
+![Aspect ratio distribution](data_visualization/Bounding_Box_Aspect_Ratio.png)  
 *Damages are roughly square, with a slight bias towards horizontal elongation (scratches, cracks).*
 
 ### Image Size Distribution
-![Image size distribution](data_visualization/Image Size Distribution.png)  
+![Image size distribution](data_visualization/Image_Size_Distribution.png)  
 *Original images are around 700–950 px; we resize to 640 px during training.*
 
 ---
@@ -114,7 +114,7 @@ After training for 50 epochs (20 epochs with frozen backbone + 30 epochs full fi
 *Glass shatter and lamp broken achieve near‑perfect precision‑recall trade‑off.*
 
 ### Sample Predictions
-![Sample Predictions](results/train_batch0.png)
+![Sample Predictions](results/train_batch0.jpg)
 
 ---
 
