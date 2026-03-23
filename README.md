@@ -1,13 +1,13 @@
 # Car Damage Detection with YOLOv8‑seg
 
-[![Hugging Face Space](https://img.shields.io/badge/🤗%20Live%20Demo-Space-blue)]([https://huggingface.co/spaces/YOUR_USERNAME/car-damage-detector](https://huggingface.co/spaces/DeepLens/car-damage-detector?logs=build))
+[![Hugging Face Space](https://img.shields.io/badge/🤗%20Live%20Demo-Space-blue)]((https://huggingface.co/spaces/DeepLens/car-damage-detector?logs=build))
 [![License: AGPL v3](https://img.shields.io/badge/License-AGPL%20v3-blue.svg)](https://www.gnu.org/licenses/agpl-3.0)
 [![Python 3.9+](https://img.shields.io/badge/python-3.9+-blue.svg)](https://www.python.org/downloads/)
 [![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
 
 **Detect six types of car damage** – dent, scratch, crack, glass shatter, tire flat, lamp broken – using a YOLOv8 instance segmentation model. This repository contains the full pipeline: data preparation, training, evaluation, and a Gradio web app.
 
-![Sample prediction](results/val_batch0_labels.jpg)  
+![Sample prediction](data visualization/damage_classes_collage.jpg)  
 
 ---
 
