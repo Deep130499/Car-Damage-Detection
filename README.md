@@ -88,19 +88,19 @@ After training for 50 epochs (20 epochs with frozen backbone + 30 epochs full fi
 | Metric               | Value |
 |----------------------|-------|
 | Box mAP@0.5          | 0.72  |
-| Box mAP@0.5:0.95     | 0.53  |
-| Mask mAP@0.5         | 0.69  |
-| Mask mAP@0.5:0.95    | 0.51  |
+| Box mAP@0.5:0.95     | 0.56  |
+| Mask mAP@0.5         | 0.70  |
+| Mask mAP@0.5:0.95    | 0.54  |
 
 ### Per‑Class mAP@0.5 (Box)
 | Class          | mAP@0.5 |
 |----------------|---------|
-| Dent           | 0.68    |
-| Scratch        | 0.62    |
+| Dent           | 0.58    |
+| Scratch        | 0.55    |
 | Crack          | 0.35    |
-| Glass shatter  | 0.94    |
-| Tire flat      | 0.76    |
-| Lamp broken    | 0.88    |
+| Glass shatter  | 0.98    |
+| Tire flat      | 0.94    |
+| Lamp broken    | 0.86    |
 
 ### Training Curves
 ![Training losses](assets/training_losses.png)  
