@@ -47,19 +47,19 @@ This project implements an end‑to‑end pipeline for car damage detection and 
 We use the **CarDD** (Car Damage Detection) dataset [1], which contains over 9,000 high‑resolution images with pixel‑level annotations for six damage categories. The dataset is split into train, validation, and test sets. Below are key statistics from our exploratory analysis.
 
 ### Class Distribution
-![Class distribution](data visualization/Class distribution per Split.png)  
+![Class distribution](data_visualization/Class distribution per Split.png)  
 *The dataset is imbalanced: “scratch” and “dent” are the most frequent; “tire flat” and “crack” are rarer.*
 
 ### Bounding Box Size Distribution
-![BBox size distribution](data visualization/Bounding Box Size Analysis.png)  
+![BBox size distribution](data_visualization/Bounding Box Size Analysis.png)  
 *Most damages are small to medium (width/height < 300 px), but there is a long tail of larger damages.*
 
 ### Aspect Ratio Distribution
-![Aspect ratio distribution](data visualization/Bounding Box Aspect Ratio.png)  
+![Aspect ratio distribution](data_visualization/Bounding Box Aspect Ratio.png)  
 *Damages are roughly square, with a slight bias towards horizontal elongation (scratches, cracks).*
 
 ### Image Size Distribution
-![Image size distribution](data visualization/Image Size Distribution.png)  
+![Image size distribution](data_visualization/Image Size Distribution.png)  
 *Original images are around 700–950 px; we resize to 640 px during training.*
 
 ---
