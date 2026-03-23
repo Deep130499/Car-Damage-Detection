@@ -1,0 +1,7 @@
+# CarDD dataset
+path: /content/CarDD_YOLO_seg
+train: train/images
+val: val/images
+test: test/images
+nc: 6
+names: ['dent', 'scratch', 'crack', 'glass shatter', 'tire flat', 'lamp broken']
